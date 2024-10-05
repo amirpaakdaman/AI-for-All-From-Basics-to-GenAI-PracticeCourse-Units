@@ -1,0 +1,1 @@
+# AI-for-All-From-Basics-to-GenAI-PracticeCourse-Units
