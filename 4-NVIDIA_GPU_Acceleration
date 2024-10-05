@@ -1,0 +1,120 @@
+# 4-**NVIDIA GPU Acceleration**
+
+### **History of GPUs**
+
+- **1970s**: Computer graphics importance grows due to reliance on visual data processing.
+- **1980s-1990s**: Graphics processors evolved into modular **graphics cards**.
+- **Modern GPUs**: Central to high-performance computing.
+
+### **General GPU Architecture**4-NVIDIA GPU Acceleration
+
+- **Thousands of cores**: A core is the component of the GPU that processes data.
+- **Onboard cache memory**: Onboard cache memory, which acts as a typical cache, storing a copy of everything for quick, reliable data access.
+- **GPU memory**: Shared between GPUs with high bandwidth.
+
+### **NVIDIA GPU Evolution**
+
+- **AI growth**: Increased data and model complexity.
+- **NVIDIA ecosystem**: CUDA, Triton server, NGC.
+- **AI Stack**: Optimized hardware-software integration for accelerated performance.
+
+<aside>
+💡
+
+Parallel processing is possible with the use of multiple cores
+
+</aside>
+
+### **Key Data Center Trends**
+
+- **Demand for accelerated computing**: Driven by AI growth and the need for more efficient, green computing.
+- **Energy concerns**: Data centers consume 2% of global energy, projected to rise to 5% by 2030.
+- **Accelerated computing**: Optimizes resources, lowers energy usage, and meets new service demands.
+
+### **Moore’s Law & Accelerated Computing**
+
+- **End of Moore’s law**: Traditional CPU advancements slow.
+- **Accelerated computing**: Combines GPUs and AI for continued performance gains.
+
+### **CPU vs. GPU Architecture**
+
+- **CPUs**:
+    
+    Multi-core, optimized for sequential processing, low-latency tasks.
+    
+    **Strengths:**
+    
+    - Very fast clock speeds
+    - Very large main memory
+    - Small number of threads can run very
+    - Latency optimized via large caches
+    
+    **Weaknesses:**
+    
+    - Relatively low memory bandwidth
+    - Low performance/watt
+    - Cache misses very costly
+- **GPUs**:
+    
+    Thousands of cores, designed for parallel tasks (e.g., deep learning), higher bandwidth but smaller memory.
+    
+    **Strengths:**
+    
+    - Significantly more compute resources
+    - Latency-tolerant via parallelism
+    - High performance/watt
+    - High bandwidth main memory
+    
+    **Weaknesses:**
+    
+    - Low per-thread performance
+    - Relatively low memory capacity
+- **Performance**: GPUs excel in **parallelized** workloads, CPUs in **general-purpose** tasks.
+
+### **GPU Acceleration Workflow**
+
+1. **Data transfer**: CPU to GPU via PCI bus.
+2. **Execution**: GPU processes data using parallel processing.
+3. **Return data**: Processed data sent back to the CPU.
+
+### **GPU Server Systems**
+
+A GPU server is a specialized computer system equipped with graphics processing units, or GPUs, designed to accelerate complex computations in the following ways.
+
+- **High-performance computing**: Ideal for deep learning and data analysis.
+- **Parallel processing:** enables faster execution of tasks compared to traditional central processing units, or CPUs, especially for applications that involve massive data sets and complex algorithms
+- **Workload optimization:** GPU servers are optimized for specific workloads, such as artificial intelligence, machine learning, and graphics rendering. They can dramatically reduce processing times, enabling researchers, engineers, and developers to solve complex problems and innovate more efficiently.
+
+**Examples**: DGX H100, HGX H100, MGX.
+
+**Server vendors**: Cisco, Dell, HPE, IBM, Lenovo, and cloud providers.
+
+### **GPU Applications in Data Centers**
+
+- **AI training/inference**, **HPC**, **visualization**, **virtualization**, **edge computing**.
+- Supported by major **cloud providers** for on-demand scalability.
+
+### GPU Consumption in the Data Center
+
+- **COMPUTE DATA CENTER**
+    - Al Training & Inferencing, Data Analytics, HPC
+- **GENERAL-PURPOSE DATA CENTER**
+    - Visualization, Rendering, Virtual Workstation, Deep Learning
+- **HIGH DENSITY VIRTUALIZATION**
+    - Virtual Desktop, Virtual Workstation
+- **ENTERPRISE EDGE**
+    - Edge solutions in controlled environments
+- **INDUSTRIAL EDGE**
+    - Edge solutions in industrial or rugged environments
+- **WORKSTATION**
+    - Design, Content Creation, Data Science
+- **MOBILE WORKSTATION**
+    - Design, Content Creation, Data Science, Software Development
+
+### **Key Takeaways**
+
+1. GPU evolution milestones.
+2. GPU architecture and functions.
+3. CPU vs GPU comparison.
+4. Deploying GPUs in data centers.
+5. Evaluating NVIDIA AI GPU families for specific use cases.
